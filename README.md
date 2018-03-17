@@ -16,7 +16,7 @@ The method move() moves the tiles accordingly
 The method isGameOver() tests whether or not the game is over
 
 
-| Sample Board|
+#### Sample Board
 
 |0  |  1|  2|  3|   | 
 | --- | --- | --- | --- | --- |
@@ -24,8 +24,9 @@ The method isGameOver() tests whether or not the game is over
 |1  |  -| - | - |  -|
 |2  |  -| - | - |  -|
 |3  |  -| - | - |  -|
- The sample board shows the index values for the columns and rows
- Remember that you access a 2D array by first specifying the row and then the column: grid[row][column]
+
+> The sample board shows the index values for the columns and rows
+>Remember that you access a 2D array by first specifying the row and then the column: grid[row][column]
 
 ## GameManager.java:
  this program manages the general functions of creating a board, saving a board and general game play.
