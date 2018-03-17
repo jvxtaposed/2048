@@ -15,17 +15,14 @@ The method canMove() tests whether or not this is a viable move on the board
 The method move() moves the tiles accordingly
 The method isGameOver() tests whether or not the game is over
 
-| Tables        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
+
 | Sample Board|
-|---|---|---|---|---|
+
 |0  |  1|  2|  3|   | 
-|0  |  -|  -|  -|  -|
-| 1 | - |-  | - |  -|
-| 2 |  -|  -| - |  -|
+| --- | --- | --- | --- | --- |
+|0  |  -| - | - |  -|
+|1  |  -| - | - |  -|
+|2  |  -| - | - |  -|
 |3  |  -| - | - |  -|
  The sample board shows the index values for the columns and rows
  Remember that you access a 2D array by first specifying the row and then the column: grid[row][column]
