@@ -668,6 +668,4 @@ public class Board {
         }
         return outputString.toString();
     }
-}
-
-        
+}        
